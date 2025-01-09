@@ -74,7 +74,6 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 20,
         borderTopRightRadius: 20,
         elevation: 3, // Sombra para Android
-        shadowColor: '#000', // Sombra para iOS
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         shadowRadius: 4,
@@ -98,11 +97,11 @@ const styles = StyleSheet.create({
     },
     backgroundImage: {
         position: 'absolute',
-        bottom: 10, // Ajusta según tu diseño
-        right: 10,  // Ajusta según tu diseño
-        width: 50, // Tamaño de la imagen
-        height: 50, // Tamaño de la imagen
-        opacity: 0.3, // Controla la opacidad
+        bottom: 10, 
+        right: 10, 
+        width: 50, 
+        height: 50, 
+        opacity: 0.3
     },
     username: {
         fontSize: 28,
