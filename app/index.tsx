@@ -33,7 +33,7 @@ export default function Index() {
               : 'rgb(11, 102, 37)'
             },styles.loginButton]} 
             /* use push for being available to move back between view or replace to avoid move back */
-          onPress={() => router.replace("/profile")}
+          onPress={() => router.push("/profile")}
         >
           <Text style={{fontWeight: 'bold', color: 'white' }}>Login</Text>
         </Pressable>
@@ -55,6 +55,5 @@ const styles = StyleSheet.create({
     width: 200,
     alignItems: "center",
     borderRadius: 5,
-    // backgroundColor: 'rgb(11, 102, 37)'
   }
 })
