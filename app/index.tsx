@@ -32,7 +32,8 @@ export default function Index() {
               ? 'rgb(8, 81, 29)'
               : 'rgb(11, 102, 37)'
             },styles.loginButton]} 
-          onPress={() => router.push("/profile")}
+            /* use push for being available to move back between view or replace to avoid move back */
+          onPress={() => router.replace("/profile")}
         >
           <Text style={{fontWeight: 'bold', color: 'white' }}>Login</Text>
         </Pressable>
