@@ -2,7 +2,7 @@
   "expo": {
     "name": "bridge",
     "slug": "bridge",
-    "version": "1.0.0",
+    "version": "1.0-dev",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "bridge",
@@ -10,13 +10,13 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ricardodnr.bridge"
+      "bundleIdentifier": "com.evalueserve.bridge"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/bridge-logo.png"
       },
-      "package": "com.ricardodnr.bridge"
+      "package": "com.evalueserve.bridge"
     },
     "web": {
       "bundler": "metro",

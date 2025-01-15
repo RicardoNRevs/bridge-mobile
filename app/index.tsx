@@ -8,12 +8,7 @@ export default function Index() {
   return (
     <View
       testID="view-container"
-      style={{
-        backgroundColor: "#301038",
-        flex: 1,
-        justifyContent: "space-evenly",
-        alignItems: "center",
-      }}
+      style={styles.indexContainer}
     >
       <View style={{ alignItems: "center", paddingBottom: 20 }}>
         <Image 
@@ -45,6 +40,12 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
+  indexContainer:{
+    backgroundColor: "#301038",
+    flex: 1,
+    justifyContent: "space-evenly",
+    alignItems: "center",
+  },
   titleContainer:{
     color: "white",
     fontSize: 20,
